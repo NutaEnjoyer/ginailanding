@@ -1,10 +1,10 @@
-import gazVodaLogo from "figma:asset/f826bb54fe43ab6450d9228d95a26cd9a393fa60.png";
-import rTreydLogo from "figma:asset/21f8c3c0c3590bf58fa8137b66b07909bd73c70e.png";
-import postMarketLogo from "figma:asset/0c34664e08a149dc26c838deaa964faae8c81280.png";
-import stavBiofabLogo from "figma:asset/b30e7d2246736dba6b2283187786df98d9429a65.png";
-import bsLogistikLogo from "figma:asset/c87faf2e514a14349e48353f270611d3def4d62b.png";
-import vogueLogo from "figma:asset/90248b4f942379b6dce5458a6d575b88ffb11a6a.png";
-import greenFieldsLogo from "figma:asset/50940e0519f64dd6a5e4094a1aecd2a9bc8a76a9.png";
+import gazVodaLogo from "../../assets/f826bb54fe43ab6450d9228d95a26cd9a393fa60.png";
+import rTreydLogo from "../../assets/21f8c3c0c3590bf58fa8137b66b07909bd73c70e.png";
+import postMarketLogo from "../../assets/0c34664e08a149dc26c838deaa964faae8c81280.png";
+import stavBiofabLogo from "../../assets/b30e7d2246736dba6b2283187786df98d9429a65.png";
+import bsLogistikLogo from "../../assets/c87faf2e514a14349e48353f270611d3def4d62b.png";
+import vogueLogo from "../../assets/90248b4f942379b6dce5458a6d575b88ffb11a6a.png";
+import greenFieldsLogo from "../../assets/50940e0519f64dd6a5e4094a1aecd2a9bc8a76a9.png";
 
 const cases = [
   {

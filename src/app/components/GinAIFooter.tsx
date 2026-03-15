@@ -1,4 +1,4 @@
-import logoImg from "figma:asset/ba0e6f4ff44da62e1c1cb614b8bf82eba24487a8.png";
+import logoImg from "../../assets/ba0e6f4ff44da62e1c1cb614b8bf82eba24487a8.png";
 
 export function GinAIFooter() {
   return (

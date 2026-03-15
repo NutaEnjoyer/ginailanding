@@ -1,9 +1,9 @@
-import photo1 from "figma:asset/c962775127d26738252f61b5ba140a26a92a10eb.png";
-import photo2 from "figma:asset/8354121458e74209925e8d16ccc5b716cad2e72e.png";
-import photo3 from "figma:asset/ae99dbc0a825e3cdc0e134825e876b52e7f6918d.png";
-import photo4 from "figma:asset/a2bf374516dde1858ae7434d20a10f6ca047451b.png";
-import photo5 from "figma:asset/310fe401110c68dac7d9983bca25161e44b079b5.png";
-import photo6 from "figma:asset/6351877104215eff9be1c68773ac6d319e2655db.png";
+import photo1 from "../../assets/c962775127d26738252f61b5ba140a26a92a10eb.png";
+import photo2 from "../../assets/8354121458e74209925e8d16ccc5b716cad2e72e.png";
+import photo3 from "../../assets/ae99dbc0a825e3cdc0e134825e876b52e7f6918d.png";
+import photo4 from "../../assets/a2bf374516dde1858ae7434d20a10f6ca047451b.png";
+import photo5 from "../../assets/310fe401110c68dac7d9983bca25161e44b079b5.png";
+import photo6 from "../../assets/6351877104215eff9be1c68773ac6d319e2655db.png";
 
 const memberPhotos: (string | null)[] = [photo1, photo2, photo3, photo4, photo5, photo6];
 

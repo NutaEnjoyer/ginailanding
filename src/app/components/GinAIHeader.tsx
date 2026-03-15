@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import samuraiLogo from "figma:asset/ba0e6f4ff44da62e1c1cb614b8bf82eba24487a8.png";
+import samuraiLogo from "../../assets/ba0e6f4ff44da62e1c1cb614b8bf82eba24487a8.png";
 
 export function GinAIHeader() {
   const [mobileOpen, setMobileOpen] = useState(false);

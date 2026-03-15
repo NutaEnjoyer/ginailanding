@@ -1,4 +1,4 @@
-import haloScreenshot from "figma:asset/95e7c49db163a1670efb7d95edd0747673c27253.png";
+import haloScreenshot from "../../assets/95e7c49db163a1670efb7d95edd0747673c27253.png";
 
 const features = [
   { icon: "📞", title: "Телефонные звонки", desc: "Разговаривает с клиентами по телефону вместо менеджера" },

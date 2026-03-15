@@ -1,4 +1,4 @@
-import orbiScreenshot from "figma:asset/b1f20d59747bb218fdaeb99a27b7074aca3249ee.png";
+import orbiScreenshot from "../../assets/b1f20d59747bb218fdaeb99a27b7074aca3249ee.png";
 
 const features = [
   { icon: "📦", title: "Все ТК в одном окне", desc: "Единый дашборд для всех транспортных компаний и отправлений" },
