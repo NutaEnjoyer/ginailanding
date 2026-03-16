@@ -4,8 +4,9 @@ import photo3 from "../../assets/ae99dbc0a825e3cdc0e134825e876b52e7f6918d.png";
 import photo4 from "../../assets/a2bf374516dde1858ae7434d20a10f6ca047451b.png";
 import photo5 from "../../assets/310fe401110c68dac7d9983bca25161e44b079b5.png";
 import photo6 from "../../assets/6351877104215eff9be1c68773ac6d319e2655db.png";
+import photo7 from "../../assets/photo_2026-03-16_15-20-06.png";
 
-const memberPhotos: (string | null)[] = [photo1, photo2, photo3, photo4, photo5, photo6];
+const memberPhotos: (string | null)[] = [photo1, photo2, photo3, photo4, photo5, photo6, photo7];
 
 const members = [
   { name: "Михаил Ляшенко", role: "CEO, основатель GINAI" },
@@ -14,6 +15,7 @@ const members = [
   { name: "Наталья Пенькова", role: "Куратор GINAI Academy" },
   { name: "Александр Ифоров", role: "Программист" },
   { name: "Влада Насонова", role: "Менеджер" },
+  { name: "Максим Долгов", role: "Программист" },
 ];
 
 export function GinAITeam() {
