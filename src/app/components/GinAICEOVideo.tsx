@@ -97,10 +97,10 @@ export function GinAICEOVideo() {
               </div>
               <div>
                 <p style={{ color: "#0C0A1E", fontSize: "16px", fontWeight: 600, fontFamily: "'Inter', sans-serif" }}>
-                  Максим Ляшенко
+                  Михаил Ляшенко
                 </p>
                 <p style={{ color: "#64748B", fontSize: "14px", fontFamily: "'Inter', sans-serif" }}>
-                  Основатель GinAI
+                  Основатель GINAI
                 </p>
               </div>
             </div>
