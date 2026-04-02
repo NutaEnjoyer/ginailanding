@@ -51,54 +51,18 @@ export function GinAICEOVideo() {
             style={{
               width: "100%",
               aspectRatio: "16/9",
-              background: "linear-gradient(135deg, #EDE9FF, #DDD6FE)",
               borderRadius: "24px",
-              border: "2px dashed #C4B5FD",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-              justifyContent: "center",
-              cursor: "pointer",
-              transition: "all 0.25s ease",
-              position: "relative",
               overflow: "hidden",
-            }}
-            onMouseEnter={(e) => {
-              (e.currentTarget as HTMLDivElement).style.boxShadow = "0 16px 48px rgba(124,58,237,0.15)";
-            }}
-            onMouseLeave={(e) => {
-              (e.currentTarget as HTMLDivElement).style.boxShadow = "none";
+              boxShadow: "0 8px 32px rgba(124,58,237,0.12)",
             }}
           >
-            {/* Red glow behind play button */}
-            <div style={{
-              position: "absolute",
-              width: "140px", height: "140px",
-              background: "radial-gradient(circle, rgba(217,32,16,0.28), transparent 70%)",
-              borderRadius: "50%",
-              pointerEvents: "none",
-            }} />
-            <div
-              style={{
-                width: "72px",
-                height: "72px",
-                background: "linear-gradient(135deg, #D92010, #F0380E)",
-                borderRadius: "50%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-                boxShadow: "0 8px 32px rgba(217,32,16,0.55)",
-                position: "relative",
-              }}
-            >
-              <span style={{ color: "white", fontSize: "24px", marginLeft: "4px" }}>▶</span>
-            </div>
-            <p style={{ color: "#7C3AED", fontSize: "14px", marginTop: "16px", fontFamily: "'Inter', sans-serif", fontWeight: 500 }}>
-              ▶ Приветственное видео
-            </p>
-            <p style={{ color: "#A78BFA", fontSize: "12px", marginTop: "6px", fontFamily: "'Inter', sans-serif" }}>
-              Видео будет добавлено позже
-            </p>
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://runtime.video.cloud.yandex.net/player/video/vplvplwp5vi6yix4ltyz?autoplay=0&mute=0"
+              allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media"
+              style={{ display: "block", width: "100%", height: "100%", border: "none", overflow: "hidden" }}
+            />
           </div>
 
           {/* Right — Quote */}
